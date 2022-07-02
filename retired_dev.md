@@ -46,7 +46,7 @@ The following list mentions the new features that were added to address the reti
 
     If there is no comment as to why the artifact was retired, then the flash mesage would just say "The artifact PXXXXXX has been retired."
 
-6. Finally comes the retired section in the artifact edit form. Here, the 2 fields "Redirect Artifact ID" and "Retired Comments" were added under the "Is this artifact retired" toggle. If an artifact is not retired, then the toggle is off and the 2 new fields are displayed but are disabled.
+6. Finally comes the retired section in the artifact edit form. Here, the 2 fields "Redirect Artifact ID" and "Retired Comments" were added under the "Is this artifact retired" toggle. If an artifact is not retired, then the toggle is off and the 2 new fields are displayed but are disabled.<br>
 ![](toggle_off.png) <br>
 When toggle is on these 2 fields are no more disabled.  
 ![](toggle_on.png)
