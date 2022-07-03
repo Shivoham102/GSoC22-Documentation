@@ -10,32 +10,15 @@ authors:
   - Angal, Shivoham
 
 ```
-<h1>Retired Artifacts for Developers</h1>
+<h2>Retired Artifacts for Developers</h2>
 
 When an artifact is retired it means that it is either permanently deleted or, say if there are 2 same artifacts then we keep the old one and new one is retired.
 
 The following list mentions the new features that were added to address the retired artifacts, along with the file and database changes -
 
-1. First to get started, update the database. The retired_artifacts table was deleted and its two columns retired_for and new_artifact_id were moved to the corresponding rows of the artifacts table with their names as redirect_artifact_id and retired_comments. To update the database, do the following steps -
-
-    * First, you will have to add the two columns `redirect_artifact_id` (type: varchar) and `retired_comments` (type: text) to artifacts table. Collation: `utf8mb4_unicode_ci` and make both columns default to `NULL`. 
-
-            UPDATE artifacts, retired_artifacts
-            SET artifacts.retired_comments = retired_artifacts.retired_for,
-            artifacts.redirect_artifact_id = retired_artifacts.new_artifact_id
-            WHERE artifacts.id = retired_artifacts.artifact_id;
-
-    * Then, some of the fields of both new columns might not be NULL just blank. So run these two queries:
-
-            UPDATE artifacts SET retired_comments = NULL WHERE retired_comments = '';
-            UPDATE artifacts SET redirect_artifact_id = NULL WHERE redirect_artifact_id = '';
-    
-    * Now, the next step is to update the artifacts_updates table. For this, run the following command similar to the first one - 
-
-            UPDATE artifacts_updates, artifacts
-            SET artifacts_updates.retired_comments = artifacts.retired_comments,
-            artifacts_updates.redirect_artifact_id = artifacts.redirect_artifact_id
-            WHERE artifacts_updates.artifact_id = artifacts.id
+1. First to get started, the tables being used for these functionalities are -
+    * There are majorly three fields being used from the `artifacts` table, these are - `retired`, `redirect_artifact_id`, and `retired_comments`.
+    * Then, from the `artifacts_updates` table we use the `redirect_artifact_id` and `retired_comments` fields.
 
 2. For the next step, the entity files `Artifact.php` and `ArtifactsUpdate.php` are updated to address the newly added columns.
 
@@ -58,9 +41,9 @@ The following list mentions the new features that were added to address the reti
 
     If there is no comment as to why the artifact was retired, then the flash mesage would just say "The artifact PXXXXXX has been retired."
 
-6. Finally comes the retired section in the artifact edit form. Here, the 2 fields "Redirect Artifact ID" and "Retired Comments" were added under the "Is this artifact retired" toggle. If an artifact is not retired, then the toggle is off and the 2 new fields are displayed but are disabled.<br>
+6. Finally comes the retired section in the artifact edit form. Here, the 2 fields "Redirect Artifact ID" and "Retired Comments" were added under the "Is this artifact retired" toggle. These 2 new fields are always displayed in the form but are disabled if the artifact is not retired.<br>
 ![toggle off](toggle_off.png) <br>
 When toggle is on these 2 fields are no more disabled.  
 ![toggle on](toggle_on.png)
 
-    Finally the user can save these changes.
+    To retire an artifact, the toggle is switched on and the 2 fields are updated as necessary. Finally, the user can save these changes.
