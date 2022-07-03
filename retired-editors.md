@@ -12,7 +12,7 @@ authors:
 ```
 <h2>Retired Artifacts for Editors</h2>
 
-To retire or un-retired an artifacts you will need to visit the artifact edit form. The link for the same is like https://cdli.ucla.edu/artifacs/edit/1. You can add the the id of the artifact you want to edit in place of '1' in the link.
+To retire or un-retired an artifacts you will need to visit the artifact edit form. The link for the same is like https://cdli.ucla.edu/artifacts/edit/1. You can add the the id of the artifact you want to edit in place of '1' in the link.
 
 1. When you visit the edit form of an artifact that is not yet retired and scroll down a bit, the retired section will look something like this -
 ![toggle off](toggle_off.png) <br>
@@ -25,7 +25,7 @@ Then finally, when you hit the save button, you will be redirected to artifacts-
 
 3. Whenever an artifact is retired, it will not appear in search results.
 
-4. Also, when you link to the single view of a retired artifact you will be redirected either to the single view of the artifact with the id that was entered while retiring it, or if it doesn't have a redirect id you will be redirected to the home page. In both these cases, a flash message will be shown as to why you were redirected.
+4. Also, when you link to the single view of a retired artifact(e.g. https://cdli.ucla.edu/artifacts/461) you will be redirected to the home page if that artifact doens't have a redirect_artifact_id. If it has one, you will be redirected to the single view of the artifact with that particular id.
 
-5. The flash messages look like this <br>
+5. The flash message after linking to the single view of artifact P0000461(a retired artifact) would look like this <br>
  ![](redirect_view.png)
