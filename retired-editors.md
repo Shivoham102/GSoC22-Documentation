@@ -26,3 +26,6 @@ Then finally, when you hit the save button, you will be redirected to artifacts-
 3. Whenever an artifact is retired, it will not appear in search results.
 
 4. Also, when you link to the single view of a retired artifact you will be redirected either to the single view of the artifact with the id that was entered while retiring it, or if it doesn't have a redirect id you will be redirected to the home page. In both these cases, a flash message will be shown as to why you were redirected.
+
+5. The flash messages look like this <br>
+ ![](redirect_view.png)
