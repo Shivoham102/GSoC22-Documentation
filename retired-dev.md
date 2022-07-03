@@ -12,7 +12,7 @@ authors:
 ```
 <h2>Retired Artifacts for Developers</h2>
 
-When an artifact is retired it means that it is either permanently deleted or, say if there are 2 same artifacts then we keep the old one and new one is retired.
+When an artifact is retired it means that it is either permanently deleted or, if duplicate artifacts are found then we keep the old one and new one is retired.
 
 The following list mentions the new features that were added to address the retired artifacts, along with the file and database changes -
 

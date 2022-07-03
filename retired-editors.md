@@ -25,7 +25,8 @@ Then finally, when you hit the save button, you will be redirected to artifacts-
 
 3. Whenever an artifact is retired, it will not appear in search results.
 
-4. Also, when you link to the single view of a retired artifact(e.g. https://cdli.ucla.edu/artifacts/461) you will be redirected to the home page if that artifact doens't have a redirect_artifact_id. If it has one, you will be redirected to the single view of the artifact with that particular id.
+4. Also, when you link to the single view of a retired artifact(e.g. https://cdli.ucla.edu/artifacts/462) you will be redirected to the home page if that artifact doens't have a redirect_artifact_id. If it has one, you will be redirected to the single view of the artifact with that particular id.
 
-5. The flash message after linking to the single view of artifact P0000461(a retired artifact) would look like this <br>
+5. The flash message after linking to the single view of artifact P0000462(a retired artifact) would look like this <br>
  ![](redirect_view.png)
+ 
