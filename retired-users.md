@@ -11,11 +11,13 @@ authors:
 ```
 <h2>Retired Artifacts for Users</h2>
 
-1. When an artifact is retired it means that it is either permanently deleted or, if duplicate artifacts are found then we keep the old one and new one is retired.
+* When an artifact is retired it means either of the following two things
+  * The particular entry is not valid anymore or,
+  * If duplicate artifacts are found then we keep the old one and new one is retired.
 
-2. When you link to the single view of a retired artifact, you will be either redirected to the home page or the single view of another artifact.
+* When you visit the web page of an artifact that has been retired, you will either be redirected to the home page or the single view of another artifact.
 
-3. If you are redirected to the home page then it means that the artifact was permanently deleted, or if you get redirected to another artifact then it means that a duplicate artifact was removed.
+* If you are redirected to the home page then it means that the paarticular artifact entry is not valid anymore, or if you get redirected to another artifact then it means that a duplicate artifact was removed.
 
-4. In both these cases, you will see a flash message similar to this one - 
+* In both these cases, you will see a flash message similar to this one - 
     ![flash for redirect to view](redirect_view.png)
