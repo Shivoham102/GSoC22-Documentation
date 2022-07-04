@@ -17,5 +17,5 @@ authors:
 
 3. If you are redirected to the home page then it means that the artifact was permanently deleted, or if you get redirected to another artifact then it means that a duplicate artifact was removed.
 
-4. In both these cases, you will see aflash message similar to this one - 
+4. In both these cases, you will see a flash message similar to this one - 
     ![flash for redirect to view](redirect_view.png)
