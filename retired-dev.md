@@ -1,5 +1,5 @@
 ```
-title: Retired Artifacts For Developers
+title: Retired Artifacts for Developers
 section: Dev and devops docs
 category: Features Guide
 audiences:
@@ -8,7 +8,6 @@ chips:
   - developer
 authors:
   - Angal, Shivoham
-
 ```
 <h2>Retired Artifacts for Developers</h2>
 

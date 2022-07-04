@@ -1,5 +1,5 @@
 ```
-title: Retired Artifacts For Editors
+title: Retired Artifacts for Editors
 section: User guides
 category: Features Guide
 audiences:
@@ -8,7 +8,6 @@ chips:
   - editor
 authors:
   - Angal, Shivoham
-
 ```
 <h2>Retired Artifacts for Editors</h2>
 
@@ -28,5 +27,5 @@ Then finally, when you hit the save button, you will be redirected to artifacts-
 4. Also, when you link to the single view of a retired artifact(e.g. https://cdli.ucla.edu/artifacts/462) you will be redirected to the home page if that artifact doens't have a redirect_artifact_id. If it has one, you will be redirected to the single view of the artifact with that particular id.
 
 5. The flash message after linking to the single view of artifact P0000462(a retired artifact) would look like this <br>
- ![](redirect_view.png)
+ ![flash for redirect to view](redirect_view.png)
  
