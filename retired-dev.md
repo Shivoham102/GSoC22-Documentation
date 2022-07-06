@@ -19,7 +19,7 @@ The following list mentions the new features that were added to address the reti
 
 1. First to get started, the tables being used for these functionalities are the `artifacts` table and the `artifacts_updates` table. Both of these tables have the three fields - `retired`, `redirect_artifact_id`, and `retired_comments` which are being used for this feature.
 
-2. [PENDING] Entity files content here 2. For the next step, the entity files `Artifact.php` and `ArtifactsUpdate.php` are updated to address the newly added columns.
+2. The entity files `Artifact.php` and `ArtifactsUpdate.php` are updated to address the two newly added columns.
 
 3. The index page for the retired artifacts is in the `Admin/Artifacts/retired.php` file and can be viewed at - http://127.0.0.1:2354/admin/artifacts/retired. It uses the route -<br> 
 
