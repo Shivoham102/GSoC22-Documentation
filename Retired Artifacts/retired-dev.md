@@ -1,4 +1,4 @@
-```
+---
 title: Retired Artifacts for Developers
 section: Dev and devops docs
 category: Features Guide
@@ -8,12 +8,12 @@ chips:
   - developer
 authors:
   - Angal, Shivoham
-```
+---
 <h2>Retired Artifacts for Developers</h2>
 
 When an artifact is retired it means either of the following two things
-  * The particular entry is not valid anymore or,
-  * If duplicate artifacts are found then we keep the old one and new one is retired.
+  - The particular entry is not valid anymore or,
+  - If duplicate artifacts are found then we keep the old one and new one is retired.
 
 The following list mentions the new features that were added to address the retired artifacts, along with the file changes -
 
@@ -29,11 +29,11 @@ The following list mentions the new features that were added to address the reti
 
 4. Next comes the redirect functionality where users linking to retired artifacts are redirected to the appropriate view. The logic for this can be found in the `ArtifacsController.php` file. It includes 2 cases -
 
-    * If the artifact entry is now invalid i.e., it doesn't have a redirect_artifact_id then the user is redirected to the home page.<br>
+    - If the artifact entry is now invalid i.e., it doesn't have a redirect_artifact_id then the user is redirected to the home page.<br>
     e.g. If a user links to http://127.0.0.1:2354/artifacts/119, then they will be redirected to the home page with the following flash mesage:
     ![flash for redirect to home](redirect_home.png)
 
-    * If the artifact has a redirect_artifact_id then the user is redirected to the view of the artifact with that particular id.<br>
+    - If the artifact has a redirect_artifact_id then the user is redirected to the view of the artifact with that particular id.<br>
     e.g. If a user links to http://127.0.0.1:2354/artifacts/462, then they will be redirected the single view of the redirect_artifact_id - http://127.0.0.1:2354/artifacts/461 with the following flash message: <br>
     ![flash for redirect to view](redirect_view.png)
 
