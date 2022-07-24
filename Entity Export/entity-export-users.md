@@ -16,4 +16,4 @@ INSERT IMAGE
 
 - Now if you hover on this dropdown, you will get a list of all the formats in which you can download the data of the particular entity.
 
-- Simply clicking on one of the links will allow you to download the data.
+- The data can be downloaded by simply clicking on one of the links.
