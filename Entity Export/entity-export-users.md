@@ -12,7 +12,7 @@ authors:
 ## Entity Export for Users
 
 - If you wish to get the data of a particular entity, you can visit the webpage of that particular entity. On that page you will see a dropdown like this : 
-INSERT IMAGE
+![abbreviations drop-down](entity_dd_sample.png)
 
 - Now if you hover on this dropdown, you will get a list of all the formats in which you can download the data of the particular entity.
 

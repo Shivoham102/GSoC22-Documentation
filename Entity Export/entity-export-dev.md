@@ -12,17 +12,19 @@ authors:
 
 ## Entity Export for Developers
 
-Every entity needs the following in order for the export to work, and these were added as per need - 
+- The entity export drop-down allows for a user to export all the rows of an entity in any of the following formats -
+  - CSV
+  - TSV
+  - TXT
+  - TTL
+  - RDF-JSON
+  - JSON
 
-- The `getTableRow()` and `getCidocCrm()` functions in the entity files to get the rows for flat data export and linked data export respectively.
+- CSV, TSV and TXT are flat data formats and need the `getTableRow()` function to work whereas, TTL and RDF-JSON are linked data formats and need the `getCicocCrm()` function to work and JSON is an expanded data format. . These functions need to be included in any entity that needs the export functionality for the particular data formats.
 
-- The data needs to be serialized in the controller, e.g. in the Abbreviations entity, it would look like-<br>
-
-        $this->set('_serialize', 'abbreviations');
-
-- In the `initialize()` function of the controller the linked data and flat data features of the ApiComponent are included to get the export working - <br>
+- The linked data and flat data features of the ApiComponent are also included in the controllers like so- <br>
 
         $this->loadComponent('Api', ['features' => ['LinkedData','TableExport']]);
 
-- An element for displaying the export drop-down which can be found here - `app/cake/templates/element/entityExport.php`. Thr drop-down looks like this - INSERT IMAGE
-This element is then displayed in the index page of all entities.
+- The element made for displaying the export drop-down can be found here - `app/cake/templates/element/entityExport.php`. This element is dispalyed on all entity index pages. For example, the drop-down on the Abbreviations entity index page would look like this - <br>
+![abbreviations drop-down](entity_dd_sample.png)
