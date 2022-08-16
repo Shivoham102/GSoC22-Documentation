@@ -27,4 +27,4 @@ authors:
         $this->loadComponent('Api', ['features' => ['LinkedData','TableExport']]);
 
 - The element made for displaying the export drop-down can be found here - `app/cake/templates/element/entityExport.php`. This element is displayed on all entity index pages. For example, the drop-down on the Abbreviations entity index page would look like this - <br>
-![abbreviations drop-down](entity_dd_sample.png)
+![abbreviations drop-down](/cdli-docs/images/entity_dd.png)
