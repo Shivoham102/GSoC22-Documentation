@@ -12,7 +12,7 @@ authors:
 
 ## Bulk Update for Developers
 
-- At times, there are a large number of artifacts that have something in common and their attributes need to be updated with the same values. But, this cannot be done in Filemaker because pulling the data for so many artifacts in relational form is tedious.
+- At times, there are a large number of artifacts that have common attributes and we need to group them by these and update them. But, this cannot be done in Filemaker because pulling the data for so many artifacts in relational form is tedious.
 
 - This is where the Bulk Update functionality comes in. Bulk update will allow the user to update some of the attributes of the artifacts with the same values for all of them.
 
