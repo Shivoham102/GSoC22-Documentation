@@ -16,8 +16,8 @@ authors:
 
 - This is where the Bulk Update functionality comes in. Bulk update will allow the user to update some of the attributes of the artifacts with the same values for all of them.
 
-- For this the user can search the artifacts with the search functionality and click on the `"Bulk Update"` button. Then they will be prompted with a modal to select the fields they want to update. The modal should look something like this - [INSERT IMAGE]
+- For this the user can search the artifacts with the search functionality and click on the `"Bulk Update"` button. This button is added on the Search single view page. On clicking the button, the user will be prompted with a modal to select the fields they want to update. The modal should look something like this - [INSERT IMAGE]
 
-- After selecting the fields, the user is redirected to the bulk update index where they can fill in the values in the master form at the top. And upon clicking on save, the user is redirected to the artifact updates page to confirm the changes.
+- After selecting the fields, the user is redirected to the bulk update index. This index page is in the `BulkUpdate/index.php` file. Here users can fill in the values in the master form at the top. And upon clicking on save, the user is redirected to the artifact updates page to confirm the changes.
 
-- The bulk update functionality uses the same logic as when uploading a csv file to the artifact updates form, and only a check is added to check whether the input is from the bulk upload form or the csv upload.
+- The bulk update functionality uses the same logic as when uploading a csv file to the artifact updates form, and only a check is added to check whether the input is from the bulk upload form or the csv upload and treat the data accordingly. This check is added in the `add()` method of the `Controller/ArtifactsUpdatesController.php` file.

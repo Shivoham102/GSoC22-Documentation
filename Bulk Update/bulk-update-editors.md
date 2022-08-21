@@ -12,7 +12,7 @@ authors:
 
 ## Bulk Update for Editors
 
-If you want to update a number of artifacts with the a common attribute like designation, then you would want to use the bulk update feature. To do so, follow the steps below:
+If you want to update a number of artifacts with a common attribute like designation, then you would want to use the bulk update feature. To do so, follow the steps below:
 
 1. Visit the home page and search for the artifacts you want. (Say if the common attribute is a designation, you may search that).
 2. On searching, you will be redirected to the search results page, here you can find the button `"Bulk Update"` below the `"Download Page"` drop-down.

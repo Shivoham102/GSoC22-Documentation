@@ -11,7 +11,7 @@ authors:
 ---
 ## Bulk Update for Users
 
-If you have artifacts with a common attribute like designation, and you wish to update some other attributes of these artifacts with the same value, follow the steps below:
+If you want to modify a large number of artifacts based on a common attribute and apply the same values to all of them, follow the steps below:
 
 1. Visit the home page and search for the artifacts you want. (Say if the common attribute is a designation, you may search that).
 2. On searching, you will be redirected to the search results page, here you can find the button `"Bulk Update"` below the `"Download Page"` drop-down.
