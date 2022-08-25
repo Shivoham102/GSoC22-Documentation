@@ -8,3 +8,4 @@ The following list mentions the folder name and the issue associated with it (on
 - "Retired Artifacts" --> https://gitlab.com/cdli/framework/-/issues/747
 - "Entity Export" --> https://gitlab.com/cdli/framework/-/issues/786
 - "Bulk Update" --> https://gitlab.com/cdli/framework/-/issues/280
+- "Publications Export" --> https://gitlab.com/cdli/framework/-/issues/521
