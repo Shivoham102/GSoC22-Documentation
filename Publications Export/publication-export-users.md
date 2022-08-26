@@ -12,7 +12,7 @@ authors:
 ## Publications Export for Users
 
 - If you wish to download a publication, you can visit the webpage of the particular publication. Here, you will see a drop-down that looks like this: <br>
-![publication drop-down](/cdli-docs/images/)
+![publication drop-down](/cdli-docs/images/publication-dd.png)
 
 - Now if you hover on this dropdown, you will get a list of all the formats in which you can download the data of the publication.
 
@@ -25,6 +25,6 @@ authors:
 - If you wish to download more publications than this, you can search for specific publications using the form provided on the page to narrow down the results. Now, if the search results are less than or equal to 1000, you may download the data from the drop-down.
 
 - If the results are more than 1000 upon clicking `"Download Publications"`, a modal like this will popup : 
-![Github link modal](/cdli-docs/images/)
+![Github link modal](/cdli-docs/images/publications-modal.png)
 
 - This will show you a link to our Github data repository. You can visit github and download more data from there.
