@@ -11,12 +11,20 @@ authors:
 ---
 ## Publications Export for Users
 
-- If you wish to download a publication, you can visit the webpage of the particular publication. Here, you will see a drop-down that looks like this: <br>
+## Single Publication
+
+- If you wish to download a publication, you can visit the webpage of the particular publication. On this webpage, you will find this dropdown : <br>
+![publication drop-down](/cdli-docs/images/publication-dd-user.png)
+On hovering, the drop-down looks like this: <br>
 ![publication drop-down](/cdli-docs/images/publication-dd.png)
 
-- Now if you hover on this dropdown, you will get a list of all the formats in which you can download the data of the publication.
+- Upon hovering on the drop-down, you will get a list of all the formats in which you can download the data of the publication.
 
 - The data can be downloaded by simply clicking on one of the links.
+
+- The bibliographical data can be downloaded from the `"Cite this Publication"` section at the bottom of the page.
+
+## Multiple Publications
 
 - Similarly, if you want to download data of multiple publications, you may visit the index page of publications. Here too, you will see a drop-down like the above.
 

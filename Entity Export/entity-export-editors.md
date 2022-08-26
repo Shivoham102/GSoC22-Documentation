@@ -19,6 +19,12 @@ authors:
 - On visiting the page, you will see a drop-down, which for the abbreviations entity would look like - <br>
 ![abbreviations drop-down](/cdli-docs/images/entity_dd.png)
 
-- Now if you hover on this dropdown, you will get a list of all the formats in which you can download the data of the particular entity.
+- Now if you hover on this dropdown, you will get a list of all the formats in which you can download the data of the particular entity.These formats are as follows:
+  - CSV
+  - TSV
+  - TXT
+  - TTL
+  - RDF-JSON
+  - JSON
 
 - The data can be downloaded by simply clicking on one of the links.

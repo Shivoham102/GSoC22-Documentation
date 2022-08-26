@@ -25,9 +25,7 @@ authors:
 - For publications, this drop-down is also on the publication single view page. The drop-down looks like this - <br>
 ![publication drop-down](/cdli-docs/images/publication-dd.png)
 
-- The bibliographical data can be downloaded from the `"Cite this Publication"` section at the bottom of the page. But, on the index page this is included in the drop-down.
-
-- The working for these two new formats is same as in entity export, and nothing new is required.
+- The bibliographical data can be downloaded from the `"Cite this Publication"` section at the bottom of the page. But, on the index page this is included in the drop-down. The single view drop-down can be found in the `app/cake/templates/Publications/view.php` file.
 
 - The only exception here is that on the index page, all the results cannot be downloaded at the same time as the data is very large. The user can only download data for the publications on the current page.
 
@@ -39,3 +37,5 @@ authors:
 ![Github link modal](/cdli-docs/images/publications-modal.png)
 
 - The modal gives the link of the github data repository to the user so that they can download more data from there.
+
+- For the index-page drop-down, the element in `app/cake/templates/element/entityExport.php` was re-used and modified to show the Bibliography export options for the publications page. It was also modified so as to allow export of data according to the number of results as mentioned above.
