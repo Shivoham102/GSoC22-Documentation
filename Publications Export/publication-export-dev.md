@@ -27,15 +27,16 @@ authors:
 
 - The bibliographical data can be downloaded from the `"Cite this Publication"` section at the bottom of the page. But, on the index page this is included in the drop-down. The single view drop-down can be found in the `app/cake/templates/Publications/view.php` file.
 
-- The only exception here is that on the index page, all the results cannot be downloaded at the same time as the data is very large. The user can only download data for the publications on the current page.
+- The only exception here is the index page drop-down. It has two columns `"Download current page"` and `"Download all results"`. This is done to handle the fact that in most cases the user will not be able to download all the results as the data would be too large.
 
 - To download more data, the user can narrow down the results by searching in the form.
 
-- Now, upon searching if the number of results is less than or equal to 1000 the user can download data for all the results from the drop-down which looks like the one mentioned above.
+- Now, upon searching if the number of results is less than or equal to 1000 the user can download data from both the columns of the drop=down which looks like this - <br>
+![publications index drop-down](/cdli-docs/images/publications-dd-1.png)
 
-- But, if the results are more than 1000, the drop-down is changed into a button and on clicking this a modal like this is shown: <br>
-![Github link modal](/cdli-docs/images/publications-modal.png)
+- But, if the results are more than 1000, the `"Download all results"` column is changed and the drop-down looks like this - <br>
+![publications drop-down with GitHub link](/cdli-docs/images/publications-dd-2.png)
 
-- The modal gives the link of the github data repository to the user so that they can download more data from there.
+- The column now shows a link to the GitHub data repository from where the users can download more data.
 
-- For the index-page drop-down, the element in `app/cake/templates/element/entityExport.php` was re-used and modified to show the Bibliography export options for the publications page. It was also modified so as to allow export of data according to the number of results as mentioned above.
+- For the index-page drop-down, the element in `app/cake/templates/element/entityExport.php` was re-used and modified to show the two columns along with the publications index specific Bibliography export options.

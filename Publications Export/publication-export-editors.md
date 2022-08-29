@@ -36,13 +36,14 @@ authors:
 
 ## Multiple Publications
 
-- To download data of a number of publications, you can visit the index page here - https://cdli.ucla.edu/publications. Here too you will see a similar drop-down.
+- To download data of a number of publications, you can visit the index page here - https://cdli.ucla.edu/publications. Here you will see a drop-down like this - <br>
+![publications index drop-down](/cdli-docs/images/publications-dd-1.png)
 
-- But, the data for all the publications cannot be downloaded in one go as the data is too large. You may only download the publications on the current page using a similar drop-down like the one mentioned above.
+- Here, in most cases you may not be able to download all results as the data would be too large. 
 
-- If you wish to download more publications than this, you can search for specific publications using the form provided on the page to narrow down the results. Now, if the search results are less than or equal to 1000, you may download all of the data from the drop-down.
+- If you wish to download more publications than this, you can search for specific publications using the form provided on the page to narrow down the results. Now, if the search results are less than or equal to 1000, you may download all of the data from the `"Download all results"` column of the drop-down.
 
-- If the results are more than 1000 upon clicking `"Download Publications"`, a modal like this will popup - <br>
-![Github link modal](/cdli-docs/images/publications-modal.png)
+- If the results are more than 1000, the `"Download all results"` column will change and the drop-down will look like this - <br>
+![publications drop-down with GitHub link](/cdli-docs/images/publications-dd-2.png)
 
 - This will show you a link to our Github data repository. You can visit github and download more data from there.
