@@ -22,7 +22,7 @@ On hovering, the drop-down looks like this - <br>
 
 - The data can be downloaded by simply clicking on one of the links.
 
-- The bibliographical data can be downloaded from the `"Cite this Publication"` section at the bottom of the page.
+- The bibliographical data can also be downloaded from the `"Cite this Publication"` section at the bottom of the page.
 
 ## Multiple Publications
 

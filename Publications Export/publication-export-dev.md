@@ -25,7 +25,7 @@ authors:
 - For publications, this drop-down is also on the publication single view page. The drop-down looks like this - <br>
 ![publication drop-down](/cdli-docs/images/publication-dd.png)
 
-- The bibliographical data can be downloaded from the `"Cite this Publication"` section at the bottom of the page. But, on the index page this is included in the drop-down. The single view drop-down can be found in the `app/cake/templates/Publications/view.php` file.
+- The bibliographical data can also be downloaded from the `"Cite this Publication"` section at the bottom of the page. The single view drop-down can be found in the `app/cake/templates/Publications/view.php` file.
 
 - The only exception here is the index page drop-down. It has two columns `"Download current page"` and `"Download all results"`. This is done to handle the fact that in most cases the user will not be able to download all the results as the data would be too large.
 
