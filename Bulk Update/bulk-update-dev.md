@@ -16,7 +16,11 @@ authors:
 
 - This is where the Bulk Update functionality comes in. Bulk update will allow the user to update some of the attributes of the artifacts with the same values for all of them.
 
-- For this the user can search the artifacts with the search functionality and click on the `"Bulk Update"` button. This button is added on the Search single view page. On clicking the button, the user will be prompted with a modal to select the fields they want to update. The modal should look something like this - [INSERT IMAGE]
+- For this the user can search the artifacts with the search functionality and click on `"Update Search Results Metadata"` at the bottom of the `"Advanced Features"` section on the search results page. The section looks like this - <br>
+![Advanced Features Section](/cdli-docs/images/adv_features_section.png)
+
+- On clicking this link, the user will be prompted with a modal to select the fields they want to update. The modal should look something like this - <br>
+![Bulk Update Modal](/cdli-docs/images/bulk_update_modal.png)
 
 - After selecting the fields, the user is redirected to the bulk update index. This index page is in the `BulkUpdate/index.php` file. Here users can fill in the values in the master form at the top. And upon clicking on save, the user is redirected to the artifact updates page to confirm the changes.
 
