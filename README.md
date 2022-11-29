@@ -1,4 +1,4 @@
-# Retired-Artifacts-Documentation
+# Google Summer of Code 2022 Documentation
 This repository contains the documentations for all my GSoC'22 issues. There are 3 types of documentations for every issue, they are for :
 1. Developers
 2. Editors
