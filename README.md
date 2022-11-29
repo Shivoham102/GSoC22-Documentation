@@ -12,3 +12,6 @@ The following list mentions the folder name and the issue and merge request asso
 | 2 | Export Export |  [#786](https://gitlab.com/cdli/framework/-/issues/786) | [!677](https://gitlab.com/cdli/framework/-/merge_requests/677) |
 | 3 | Bulk Update | [#280](https://gitlab.com/cdli/framework/-/issues/280) | [!699](https://gitlab.com/cdli/framework/-/merge_requests/699) |
 | 4 | Publications Export | [#521](https://gitlab.com/cdli/framework/-/issues/521) | [!709](https://gitlab.com/cdli/framework/-/merge_requests/709) |
+
+
+View merge requests for the documentation on [gitlab](https://gitlab.com/cdli/cdli-docs/-/merge_requests?scope=all&state=all&author_username=shivohamangal)
